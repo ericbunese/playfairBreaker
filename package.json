@@ -1,0 +1,15 @@
+{
+  "name": "t2",
+  "version": "1.0.0",
+  "description": "Trabalho 2 da disciplina de Criptografia - 2018/1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./tests/test.js"
+  },
+  "author": "Eric Eduardo Bunese",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.0.0"
+  }
+}
