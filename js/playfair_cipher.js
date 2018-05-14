@@ -121,9 +121,9 @@ module.exports = {
 				pos1 = this.playfairMatrix.indexOf(et.charAt(i));
 				pos2 = this.playfairMatrix.indexOf(et.charAt(i+1));
 				x1 = pos1%5;
-				y1 = Math.floor(pos1/5);
+				y1 = Math.floor(pos1/5)%5;
 				x2 = pos2%5;
-				y2 = Math.floor(pos2/5);
+				y2 = Math.floor(pos2/5)%5;
 
 				if(y1 == y2){
 					x1 = (x1+shf)%5;
