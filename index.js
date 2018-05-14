@@ -3,7 +3,7 @@ let bk = require("./js/breaker.js");
 var texto = "", dic = undefined;
 
 if (process.argv.length!=2){
-  texto = process.argv[2];
+  texto = process.argv[2].toUpperCase();
   if (process.argv.length>=4)
       dic = require(process.argv[3]);
 
